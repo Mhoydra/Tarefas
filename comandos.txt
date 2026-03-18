@@ -1,3 +1,4 @@
+#(Aviso: comandos vieram direto do chat, não é 100% confiavel)
 # Sempre começar da develop atualizada
 git checkout develop
 git pull
