@@ -1,0 +1,15 @@
+# Sempre começar da develop atualizada
+git checkout develop
+git pull
+
+# Criar a feature
+git checkout -b feature/login
+
+# Editar arquivos (HTML, CSS, JS, etc.);
+# ctrl + s no arquivo editado;
+
+git add .
+git commit -m "feat: criando tela de login"
+
+# Enviar para o GitHub
+git push -u origin feature/login
