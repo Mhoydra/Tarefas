@@ -1,0 +1,9 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}

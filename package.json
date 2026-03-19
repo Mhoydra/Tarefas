@@ -1,0 +1,21 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "Projeto: Sistema de tarefas\r Integrantes: \r - Joel: Git, Github e zelador;\r - Elem: Banco de dados;\r - Yuri: Documentação;\r - Guilherme: Backend;\r - Jessica: Frontend;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhoydra/Tarefas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mhoydra/Tarefas/issues"
+  },
+  "homepage": "https://github.com/Mhoydra/Tarefas#readme"
+}
