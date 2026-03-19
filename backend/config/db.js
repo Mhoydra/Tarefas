@@ -7,6 +7,6 @@ export const db = knex({
         port:3306,
         user:'root',
         password:'senacrs',
-        database:'biblioteca'
+        database:'sistema_tarefas'
     }
 })
