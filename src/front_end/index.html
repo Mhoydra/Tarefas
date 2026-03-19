@@ -8,21 +8,19 @@
 </head>
 <body>
     
-    <div class="container">
+<div class="container">
     <h1>Sistema de Tarefas</h1>
-    
-    
-    <form >
-    <input type="text"  placeholder="Título">
-    <input type="text" placeholder="Descrição">
-    <button id="btn-criar_tarefa">Adicionar</button>
-   
-    </form>
-    <ul id="lista"></ul>
-   </div>
-    
-   <script src="script.js"></script>
 
+    <form id="form-tarefa">
+        <input type="text" id="titulo" placeholder="Título">
+        <input type="text" id="descricao" placeholder="Descrição">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista"></ul>
+</div>
+
+<script src="renderer.js"></script>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
   "description": "Projeto: Sistema de tarefas\r Integrantes: \r - Joel: Git, Github e zelador;\r - Elem: Banco de dados;\r - Yuri: Documentação;\r - Guilherme: Backend;\r - Jessica: Frontend;",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/backend/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Mhoydra/Tarefas/issues"
   },
-  "homepage": "https://github.com/Mhoydra/Tarefas#readme"
+  "homepage": "https://github.com/Mhoydra/Tarefas#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
 }
