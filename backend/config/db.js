@@ -1,19 +1,12 @@
-const mysql = require('mysql2');
+import knex from "knex";
 
-const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'senacrs',
-    database: 'sistema_tarefas'
-});
-
-//testar a conexão
-connection.connect((err) =>{
-    if (err) {
-        console.error('Erro ao conectar ao MySQL:', err);
-        return;
+export const db = knex({
+    client:"mysql2",
+    connection:{
+        host:'localhost',
+        port:3306,
+        user:'root',
+        password:'senacrs',
+        database:'sistema_tarefas'
     }
-    console.log('Conectado ao MySQL')
-    });
-
-    module.exports = db;
+})
