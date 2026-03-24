@@ -10,4 +10,3 @@ export const db = knex({
         database:'sistema_tarefas'
     }
 })
-
