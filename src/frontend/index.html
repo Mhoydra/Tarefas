@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Tarefas</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
+
         <h1>Sistema de Tarefas</h1>
+
         <div class="input-area">
             <input type="text" id="titulo-input" placeholder="Título da tarefa">
             <input type="text" id="descricao-input" placeholder="Descrição da tarefa">
             <button id="adicionar-btn">Adicionar</button>
         </div>
-        <ul id="lista-tarefas"></ul>
+
+        <div class="board">
+
+            <div class="coluna">
+                <h2>Pendentes</h2>
+                <ul id="pendente"></ul>
+            </div>
+
+            <div class="coluna">
+                <h2>Em andamento</h2>
+                <ul id="andamento"></ul>
+            </div>
+
+            <div class="coluna">
+                <h2>Concluídas</h2>
+                <ul id="concluida"></ul>
+            </div>
+
+        </div>
+
     </div>
+
     <script src="renderer.js"></script>
+
 </body>
+
 </html>
