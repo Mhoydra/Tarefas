@@ -1,0 +1,161 @@
+/* Corpo centralizado */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container compacto */
+.container {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Área de input */
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inputs modernos */
+.input-area input {
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1.5px solid #dcdfe4;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f9fafb;
+  transition: all 0.25s ease;
+}
+
+/* Placeholder */
+.input-area input::placeholder {
+  color: #999;
+}
+
+/* Foco no input */
+.input-area input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+/* Botões */
+button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 11px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Lista de tarefas */
+ul#lista-tarefas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Item da tarefa */
+ul#lista-tarefas li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #eee;
+  gap: 8px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+ul#lista-tarefas li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Textos */
+ul#lista-tarefas li strong {
+  font-size: 16px;
+  color: #222;
+}
+
+ul#lista-tarefas li small {
+  color: #666;
+}
+
+ul#lista-tarefas li em {
+  font-size: 13px;
+  color: #007bff;
+}
+
+/* Área dos botões */
+ul#lista-tarefas li div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+/* Botões pequenos */
+ul#lista-tarefas li button {
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+/* Botão editar */
+ul#lista-tarefas li button.editar-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+ul#lista-tarefas li button.editar-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Botão atualizar/salvar */
+ul#lista-tarefas li button.atualizar-btn,
+ul#lista-tarefas li button.salvar-btn {
+  background-color: #28a745;
+}
+
+ul#lista-tarefas li button.atualizar-btn:hover,
+ul#lista-tarefas li button.salvar-btn:hover {
+  background-color: #218838;
+}
+
+/* Botão deletar */
+ul#lista-tarefas li button.deletar-btn {
+  background-color: #dc3545;
+}
+
+ul#lista-tarefas li button.deletar-btn:hover {
+  background-color: #a71d2a;
+}
