@@ -1,10 +1,10 @@
 {
-  "name": "tarefas",
+  "name": "sistemas-tarefas",
   "version": "1.0.0",
-  "description": "Projeto: Sistema de tarefas\r Integrantes: \r - Joel: Git, Github e zelador;\r - Elem: Banco de dados;\r - Yuri: Documentação;\r - Guilherme: Backend;\r - Jessica: Frontend;",
-  "main": "index.js",
+  "description": "Sistemas de tarefas com electron",
+  "main": "main.js",
   "scripts": {
-    "start": "node src/backend/index.js"
+    "start": "electron"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
   "homepage": "https://github.com/Mhoydra/Tarefas#readme",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "open": "^11.0.0"
+  },
+  "devDependencies": {
+    "electron": "^26.2."
   }
 }

@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarefas</title>
+    <title>Sistema de Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<div class="container">
-    <h1>Sistema de Tarefas</h1>
-
-    <form id="form-tarefa">
-        <input type="text" id="titulo" placeholder="Título">
-        <input type="text" id="descricao" placeholder="Descrição">
-        <button type="submit">Adicionar</button>
-    </form>
-
-    <ul id="lista"></ul>
-</div>
-
-<script src="renderer.js"></script>
-
+    <div class="container">
+        <h1>Sistema de Tarefas</h1>
+        <div class="input-area">
+            <input type="text" id="titulo-input" placeholder="Título da tarefa">
+            <input type="text" id="descricao-input" placeholder="Descrição da tarefa">
+            <button id="adicionar-btn">Adicionar</button>
+        </div>
+        <ul id="lista-tarefas"></ul>
+    </div>
+    <script src="renderer.js"></script>
 </body>
 </html>
