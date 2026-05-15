@@ -1,0 +1,29 @@
+{
+  "name": "sistemas-tarefas",
+  "version": "1.0.0",
+  "description": "Sistemas de tarefas com electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhoydra/Tarefas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mhoydra/Tarefas/issues"
+  },
+  "homepage": "https://github.com/Mhoydra/Tarefas#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "open": "^11.0.0"
+  },
+  "devDependencies": {
+    "electron": "^26.2."
+  }
+}

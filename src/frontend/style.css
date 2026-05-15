@@ -1,0 +1,231 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+background:#f4f5f7;
+padding:30px;
+}
+
+/* container */
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+h1{
+margin-bottom:20px;
+color:#333;
+}
+
+/* área de criação */
+
+.input-area{
+display:flex;
+gap:10px;
+margin-bottom:25px;
+}
+
+.input-area input{
+flex:1;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+.input-area button{
+padding:10px 18px;
+background:#0d6efd;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.input-area button:hover{
+background:#0b5ed7;
+}
+
+/* board estilo trello */
+
+.board{
+display:flex;
+gap:20px;
+align-items:flex-start;
+overflow-x:auto;
+}
+
+/* colunas */
+
+.coluna{
+background:#ebecf0;
+padding:15px;
+border-radius:10px;
+min-width:300px;
+flex:1;
+}
+
+.coluna h2{
+font-size:16px;
+margin-bottom:15px;
+color:#444;
+}
+
+/* lista */
+
+.coluna ul{
+list-style:none;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+/* card da tarefa */
+
+.coluna li{
+background:white;
+padding:12px;
+border-radius:8px;
+box-shadow:0 1px 3px rgba(0,0,0,0.2);
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.coluna li strong{
+font-size:15px;
+color:#222;
+}
+
+.coluna li small{
+color:#555;
+}
+
+/* status */
+
+.status{
+font-size:12px;
+font-weight:bold;
+padding:4px 8px;
+border-radius:5px;
+width:fit-content;
+}
+
+.status.pendente{
+background:#ff4d4d;
+color:white;
+}
+
+.status.emandamento{
+background:#ffc107;
+color:black;
+}
+
+.status.concluida,
+.status.concluída{
+background:#22c55e;
+color:white;
+}
+
+/* botões */
+
+.acoes{
+display:flex;
+gap:6px;
+margin-top:5px;
+}
+
+.acoes button{
+flex:1;
+border:none;
+border-radius:5px;
+padding:6px;
+font-size:13px;
+cursor:pointer;
+}
+
+.editar-btn{
+background:#ffc107;
+}
+
+.salvar-btn{
+background:#28a745;
+color:white;
+}
+
+.deletar-btn{
+background:#dc3545;
+color:white;
+}
+
+.editar-btn:hover{
+background:#e0a800;
+}
+
+.salvar-btn:hover{
+background:#218838;
+}
+
+.deletar-btn:hover{
+background:#a71d2a;
+}
+
+/* edição da tarefa */
+
+li input,
+li select{
+width:100%;
+padding:8px;
+border-radius:6px;
+border:1px solid #ccc;
+font-size:13px;
+margin-bottom:6px;
+background:#f9fafb;
+transition:0.2s;
+}
+
+li input:focus,
+li select:focus{
+outline:none;
+border-color:#0d6efd;
+box-shadow:0 0 0 2px rgba(13,110,253,0.2);
+}
+
+.salvar-btn{
+margin-top:4px;
+background:#0d6efd;
+color:white;
+font-weight:bold;
+}
+
+.salvar-btn:hover{
+background:#0b5ed7;
+}
+
+.editar-form{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.salvar-btn{
+align-self:flex-start;
+padding:6px 14px;
+font-size:13px;
+border-radius:6px;
+background:#0d6efd;
+color:white;
+border:none;
+cursor:pointer;
+transition:0.2s;
+}
+
+.salvar-btn:hover{
+background:#0b5ed7;
+}
